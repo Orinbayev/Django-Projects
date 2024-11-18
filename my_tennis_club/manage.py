@@ -16,6 +16,8 @@ def main():
             "forget to activate a virtual environment?"
         ) from exc
     execute_from_command_line(sys.argv)
+    db=os.getenv('db_name')
+    print(db)
 
 
 if __name__ == '__main__':

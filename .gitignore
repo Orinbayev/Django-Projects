@@ -28,5 +28,5 @@ my_tennis_club/config_my_tennis/__pycache__/__init__.cpython-312.pyc
 *.py
 
 *.sqlite3
-my_tennis_club/config_my_tennis/.env
+my_tennis_club/.env
 
