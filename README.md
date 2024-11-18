@@ -21,4 +21,11 @@ py -m venv venv
 ```python
 pip install -r requirements.txt
 ```
+migration of DB
+```python
+python manage.py makemigrations
+```
+```python
+python manage.py migrate
+```
 be sure you have .env file with it credentials
